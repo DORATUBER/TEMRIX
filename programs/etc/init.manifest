@@ -1,0 +1,5 @@
+/ext4/bin/Gpu.trx class:0x03 caps:write
+/ext4/bin/Compositor.trx class:0x03 caps:write
+/ext4/bin/NetworkServer.trx class:0x02 caps:write
+/ext4/bin/KeyboardServer.trx class:0x0c caps:write,alloc_vectors,irq,pci_msix
+/ext4/bin/Terminal.trx caps:write

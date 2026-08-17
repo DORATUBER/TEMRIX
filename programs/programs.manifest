@@ -1,0 +1,36 @@
+Init:
+    Init/Init.cpp
+
+Fs:
+    Fs/Fs.cpp
+
+Compositor:
+    Compositor/Compositor.cpp
+    Graphics/font.cpp
+
+Terminal:
+	Terminal/Terminal.cpp \
+	Terminal/Shell.cpp \
+	Terminal/TermGrid.cpp \
+	Terminal/TextEditor.cpp \
+	Graphics/font.cpp
+
+NetworkServer:
+    Network/NetworkServer.cpp
+    Graphics/font.cpp
+    include/net/link/arp.cpp
+    include/net/link/ethernet.cpp
+    include/net/internet/ip.cpp
+    include/net/transport/udp.cpp
+    include/net/transport/tcp.cpp
+    include/net/services/dns/dns.cpp
+
+KeyboardServer:
+    Keyboard/KeyboardServer.cpp
+
+Gpu:
+    Gpu/Gpu.cpp
+
+ExampleProgram:
+    Example/ExampleProgram.cpp
+    Graphics/font.cpp
